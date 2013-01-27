@@ -7,10 +7,11 @@ Description: ${3:Description}
 Version: ${4:0.1}
 Author: ${5:${TM_NAME:Your Name}}
 Author URI: ${6:${TM_HOMEPAGE:http://example.com/}}
+License: GPL2
 */
 
 /**
- * ${7:Copyright (c) ${8:`date "+%Y"`} ${9:${5}}}. All rights reserved.
+ * ${7:Copyright (c) ${8:`date "+%Y"`} ${9:${5}}} (email: ${10:Email}). All rights reserved.
  *
  * Released under the GPL license
  * http://www.opensource.org/licenses/gpl-license.php
@@ -28,6 +29,10 @@ Author URI: ${6:${TM_HOMEPAGE:http://example.com/}}
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  * **********************************************************************
  */
 
